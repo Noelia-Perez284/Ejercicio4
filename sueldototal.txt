@@ -1,0 +1,18 @@
+Ingresar sueldo
+Si sueldo > 0 y sueldo <= 15000,
+entonces sueldo actualizado = (sueldo*0.2) + sueldo.
+Si sueldo >=15001 y sueldo <= 20000,
+entonces sueldo actualizado = (sueldo*0.1) + sueldo.
+Si sueldo >= 20001 y sueldo <= 25000,
+entonces sueldo actualizado = (sueldo*0.05) + sueldo.
+Si no sueldo actualizado queda sin modificacion.
+
+
+Pruebas de escritorio
+Sueldo/ Resultado
+15000/18000
+15001/17251.15
+20000/23000
+20001/21001.05
+25000/26250
+25001/25001
